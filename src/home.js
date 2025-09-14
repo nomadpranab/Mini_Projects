@@ -2,9 +2,15 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const projects = [
-  { id: 1, name: "Budget Buddy", description: "A personal finance manager", url: "/projects/budgetbuddy" },
+  { id: 1, name: "Kalakriti- Gallery-App", description: "To learn JSX, Components, Props", url: "/Gallery" },
   { id: 2, name: "Weather App", description: "Shows realtime weather info", url: "https://endearing-valkyrie-845add.netlify.app/" },
-  { id: 3, name: "Expense Tracker", description: "Track your daily expenses easily", url: "/expenseTracker" },
+  { id: 3, name: "Budget Buddy", description: "Track your daily expenses easily", url: "/expenseTracker" },
+  { id: 4, name: "To-Do List", description: "lists, keys, conditional rendering, controlled inputs", url: "https://example.com/todo" },
+  { id: 5, name: "Quiz-App", description: "Handling multiple states & rendering based on conditions.", url: "https://example.com/recipe-finder" },
+  { id: 6, name: "Authentication", description: "User signup / login, protected routes, storing tokens", url: "https://example.com/quiz-app" },
+  { id: 7, name: "Chat-App", description: "WebSockets/Socket.IO, real-time messages/updates, presence notifications", url: "https://example.com/authentication" },
+  { id: 8, name: "Portfolio-Website", description: "Showcasing my work and academic achievements", url: "https://example.com/e-commerce" },
+  { id: 9, name: "Final Project", description: "Real-time chat application using WebSockets", url: "https://example.com/chat-app" },
   // Add your project URLs accordingly
 ];
 
