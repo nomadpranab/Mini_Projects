@@ -23,74 +23,74 @@ export default function GalleryApp() {
   const users = [
     {
       id: 1,
-      name: "Sunset Beach",
+      name: "Ganpati Visarjan",
       avatar:
-        "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400&h=400&fit=crop",
-      description: "Beautiful sunset at the beach",
+        "https://images.unsplash.com/photo-1757857325732-045d2270dc20?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      description: "Kolhapur",
     },
     {
       id: 2,
-      name: "Mountain Hike",
+      name: "Streets of Bombay",
       avatar:
-        "https://images.unsplash.com/photo-1500534623283-312aade485b7?w=400&h=400&fit=crop",
-      description: "Adventure in the mountains",
+        "https://images.unsplash.com/photo-1757857357792-9e3c2fe92c72?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8Mnx8fGVufDB8fHx8fA%3D%3D",
+      description: "Bombay",
     },
     // Add 10 more users like these (12 total)
     {
       id: 3,
-      name: "City Lights",
+      name: "Beach Sunset",
       avatar:
-        "https://images.unsplash.com/photo-1494526585095-c41746248156?w=400&h=400&fit=crop",
-      description: "Night lights of a bustling city",
+        "https://images.unsplash.com/photo-1757857325787-596bc5128682?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8M3x8fGVufDB8fHx8fA%3D%3D",
+      description: "Pondicherry",
     },
     {
       id: 4,
-      name: "Forest Trail",
+      name: "Serenity",
       avatar:
-        "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=400&h=400&fit=crop",
-      description: "Peaceful forest walk",
+        "https://images.unsplash.com/photo-1757857325852-4553b19066d1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NHx8fGVufDB8fHx8fA%3D%3D",
+      description: "Chitkul , Himachal Pradesh",
     },
     {
       id: 5,
-      name: "Desert Dunes",
+      name: "The TAJ",
       avatar:
-        "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=400&h=400&fit=crop",
-      description: "Orange desert dunes",
+        "https://images.unsplash.com/photo-1757857325732-c21cd31b619d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NXx8fGVufDB8fHx8fA%3D%3D",
+      description: "Bombay, India",
     },
     {
       id: 6,
-      name: "Snowy Mountain",
+      name: "Mountains Peace",
       avatar:
-        "https://images.unsplash.com/photo-1486308510493-cb576bbf6f0b?w=400&h=400&fit=crop",
-      description: "Snow covered mountain peaks",
+        "https://images.unsplash.com/photo-1757857325692-5ce38f9c54c8?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      description: "Sangla,Himachal Pradesh",
     },
     {
       id: 7,
-      name: "Ocean Wave",
+      name: "Street Art",
       avatar:
-        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400&h=400&fit=crop",
-      description: "Large ocean wave",
+        "https://images.unsplash.com/photo-1757857325792-567e8783a0ae?q=80&w=631&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      description: "Dalal Street, Bombay",
     },
     {
       id: 8,
-      name: "Golden Gate",
+      name: "Still Standing",
       avatar:
-        "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=400&h=400&fit=crop",
-      description: "Famous Golden Gate bridge",
+        "https://images.unsplash.com/photo-1757857325772-6cace8e7f7eb?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      description: "Bombay",
     },
     {
       id: 9,
-      name: "Countryside",
+      name: "Scenic Riverside",
       avatar:
-        "https://images.unsplash.com/photo-1468071174046-657d9d351a40?w=400&h=400&fit=crop",
-      description: "Green fields countryside",
+        "https://images.unsplash.com/photo-1757857325725-b4c6cb46d3cb?q=80&w=645&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      description: "Chitkul, Himachal Pradesh",
     },
     {
       id: 10,
-      name: "City Skyline",
+      name: "Shillong's Saddle",
       avatar:
-        "https://images.unsplash.com/photo-1494526585095-c41746248156?w=400&h=400&fit=crop",
-      description: "Modern city skyline",
+        "https://images.unsplash.com/photo-1757857325868-e5cd10af8b4d?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      description: "Meghalaya",
     },
     {
       id: 11,
@@ -111,7 +111,7 @@ export default function GalleryApp() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-black via-gray-800 to-red-600 p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-center place-items-center">
         <h1 className="col-span-full text-6xl font-extrabold text-red-700  text-center">|  कलाकृति  |</h1>
-        <span className="col-span-full text-md text-center text-gray-200 mb-4">by Pranab</span>
+        <span className="col-span-full text-md text-center text-gray-200 mb-4">- Pranab</span>
       {users.map(({ id, name, avatar, description }) => (
         <ProfileCard
           key={id}
